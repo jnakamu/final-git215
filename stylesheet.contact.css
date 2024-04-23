@@ -1,0 +1,103 @@
+.grand-hotel-regular {
+    font-family: "Grand Hotel", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  header {
+    text-align: center; 
+    padding: 20px;
+  
+  }
+  
+  header h1 {
+    font-family: "Grand Hotel";
+    font-size: 4rem;
+    margin: 0; 
+    padding: 10px; 
+    
+  }
+  
+
+  nav {
+    display: flex;
+    justify-content: center; 
+    padding: 25px;
+    font-family: "grand hotel";
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    display: flex; 
+    gap: 1rem;
+    margin: 0;
+  }
+  
+  nav li {
+    margin: 0;
+  }
+  
+  nav a {
+    text-decoration: none;
+    font-size: 1.75rem;
+    padding: 1.5rem;
+    background-color: aliceblue;
+    color: var(--lt-cream);
+    border-radius: 32px;
+    transition: all 500ms;
+    box-shadow: var(--box-shadow-lg);
+  }
+  
+  nav a:hover {
+    background-color: darkblue;
+    color: aliceblue;
+    box-shadow: var(--box-shadow-sm);
+  }
+
+  header img {
+    width: 100%; 
+    display: block; 
+    border: 8px solid #fff; 
+    border-radius: 16px; 
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  body {
+    background: linear-gradient(to bottom, #e5f2f7, #b3d3e6);
+    background-image: url(images/cool-background.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-color: rgba(255, 255, 255, 0.4); 
+    min-height: 100vh;
+    margin: 0;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  footer {
+    position: loose; 
+    left: 0;
+    bottom: 10px;
+    width: 100%;
+    background-color: #333; 
+    color: #fff;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  footer p {
+    margin: 0 0px; 
+    padding: 10px;
+  }
+  
+  
